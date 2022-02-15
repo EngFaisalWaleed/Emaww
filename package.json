@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start": "node app.js -e js ./XML/config.xml"
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "fs": "^0.0.1-security",
+    "nodemon": "^2.0.15",
+    "redis": "^4.0.2",
+    "xml-js": "^1.6.11"
+  }
+}
